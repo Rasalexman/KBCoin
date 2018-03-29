@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.31"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
